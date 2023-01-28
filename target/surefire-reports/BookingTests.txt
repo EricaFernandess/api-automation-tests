@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: BookingTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.141 s <<< FAILURE! - in BookingTests
+DeleteBooking_returnOk  Time elapsed: 2.657 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <200> but was: <403>
+	at BookingTests.DeleteBooking_returnOk(BookingTests.java:112)
+
